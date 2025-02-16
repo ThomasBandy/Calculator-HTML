@@ -1,0 +1,68 @@
+body{
+    background-color: 091540;
+    
+}
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding: 12px;
+    resize: both;
+    width: 70%;
+    height: 70%;
+    position: fixed;
+    bottom: 9%;
+    left: 15%;
+    background-color: 3D518C;
+    border-spacing: 7px;
+    font-size: 50px;
+    color: 091540;
+    
+}
+td{
+    
+    height: 20%;
+    text-align: center;
+    padding: 1%;
+    
+    border-radius: 30px;
+    
+}
+.function{
+    background-color: ABD2FA;
+    width: 10%;
+}
+.function:hover{
+    background-color: 7492C3;
+}
+.number{
+    background-color: 91B2FD;
+    width: 20%;
+}
+.number:hover{
+    background-color: 7692FF;
+}
+#enter{
+    background-color: orange;
+    
+}
+#enter:hover{
+    background-color: rgb(209, 146, 30);
+}
+.typer{
+    outline: none;
+    background-color: 91B2FD;
+    border-color: inherit;
+    box-shadow: none;
+    position: fixed;
+    top: 9%;
+    left: 15%;
+    width: 70%;
+    height: 10%;
+    border-radius: 20px;
+    text-align: right;
+    font-size: 50px;
+    max-width: 80%;
+}
+.typer:hover{
+    background-color: 7692FF;
+}
