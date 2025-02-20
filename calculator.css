@@ -5,11 +5,10 @@ body{
 }
 table{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 20px;
+    border-radius: 36px;
     padding: 12px;
-    resize: both;
     width: 70%;
-    height: 70%;
+    height: 80%;
     position: fixed;
     bottom: 9%;
     left: 15%;
@@ -19,17 +18,12 @@ table{
     color: 091540;
 
 }
-td{
-    
+.function{
+    background-color: ABD2FA;
     height: 20%;
     text-align: center;
     padding: 1%;
-    
     border-radius: 30px;
-    
-}
-.function{
-    background-color: ABD2FA;
     width: 10%;
 }
 .function:hover{
@@ -38,32 +32,37 @@ td{
 .number{
     background-color: 91B2FD;
     width: 20%;
+    height: 20%;
+    text-align: center;
+    padding: 1%;
+    border-radius: 30px;
+    min-width: 100;
 }
 .number:hover{
     background-color: 7692FF;
 }
 #enter{
     background-color: orange;
+    height: 20%;
+    text-align: center;
+    padding: 1%;
+    
+    border-radius: 30px;
     
 }
 #enter:hover{
     background-color: rgb(209, 146, 30);
 }
-.typer{
-    outline: none;
-    background-color: 91B2FD;
-    border-color: inherit;
-    box-shadow: none;
-    position: fixed;
-    top: 9%;
-    left: 15%;
-    width: 70%;
-    height: 10%;
-    border-radius: 20px;
+#result{
+    background-color: aliceblue;
+    padding-inline: 5%;
+    width: 60%;
+    height: 15%;
+    border-radius: 30px;
     text-align: right;
     font-size: 50px;
     max-width: 80%;
 }
-.typer:hover{
+#result:hover{
     background-color: 7692FF;
 }
