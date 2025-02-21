@@ -10,34 +10,79 @@
    
     <nav>
         <table id="calcu">
+            <!--input-->
             <tr>
-                <td colspan="6" type="text" id="result">0</td>
+                <td colspan="4" type="text" id="resultX">
+                    <input type="text" id="result">
+                </td>
             </tr>
+            <!--Row 1-->
             <tr>
-                <td colspan="2" class="number" value="7" id="7">7</td>  
-                <td colspan="2" class="number" value="8" id="8">8</td>
-                <td colspan="2" class="number" value="9" id="9">9</td>
+                <td colspan="1" id="7">
+                    <input class="number" type="button" value="7">
+                </td>  
+                <td colspan="1" id="8">
+                    <input class="number" type="button" value="8">
+                </td>
+                <td colspan="1" id="9">
+                    <input class="number" type="button" value="9">
+                </td>
+                <td class="function">
+                    <input class="function" type="button" id="*" value="*">
+                </td>
             </tr>
+            <!--Row 2-->
             <tr>
-                <td colspan="2" class="number" value="4" id="4">4</td>  
-                <td colspan="2" class="number" value="5" id="5">5</td>
-                <td colspan="2" class="number" value="6" id="6">6</td>
+                <td colspan="1" id="4">
+                    <input class="num" type="button" value="4">
+                </td>  
+                <td colspan="1" id="5">
+                    <input class="number" type="button" value="5">
+                </td>
+                <td colspan="1" id="6">
+                    <input class="number" type="button" value="6">
+                </td>
+                <td class="function">
+                    <input class="function" type="button" id="/" value="/">
+                </td>
             </tr>
+            <!--Row 3-->
             <tr>
-                <td colspan="2" class="number" value="1" id="1">1</td>  
-                <td colspan="2" class="number" value="2" id="2">2</td>
-                <td colspan="2" class="number" value="3" id="3">3</td>
+                <td colspan="1" id="1">
+                    <input class="number" type="button" value="1">
+                </td>  
+                <td colspan="1" id="2">
+                    <input class="number" class="num" type="button" value="2">
+                </td>
+                <td colspan="1" id="3">
+                    <input class="number" type="button" value="3">
+                </td>
+                <td class="function">
+                    <input class="function" type="button" id="+" value="+">
+                </td>
+                
             </tr>
+            <!--Row 4-->
+            <tr>  
+                <td class="function">
+                    <input class="function" type="button" id="." value=".">
+                </td> 
+                <td colspan="1">
+                    <input class="number" type="button" id="0" value="0">
+                </td>
+                <td colspan="1">
+                    <input class="function" type="button" id="c" value="c">
+                </td>
+                <td class="function">
+                    <input class="function" type="button" id="-" value="-">
+                </td> 
+            </tr>
+            <!--Enter-->
             <tr>
-                <td class="function">/</td>
-                <td class="function">*</td>   
-                <td colspan="2" class="number">0</td>
-                <td class="function">+</td>
-                <td class="function">-</td> 
-            </tr>
-            <tr class="enter">
-                <td colspan="6" id="enter">enter</td>
-
+                <td colspan="4" id="enter">
+                    <input class="function" type="button" id="enter" value="enter">
+                </td>
+               
             </tr>
 
         </table>
