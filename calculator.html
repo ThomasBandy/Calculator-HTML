@@ -4,88 +4,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc-You-Later</title>
     <link rel="stylesheet" href="calculator.css">
-    <script src="calculator.js"></script>
+    
 </head>
 <body>
-   
-    <nav>
         <table id="calcu">
             <!--input-->
             <tr>
-                <td colspan="4" type="text" id="resultX">
+                <td colspan="4">
                     <input type="text" id="result">
                 </td>
             </tr>
             <!--Row 1-->
             <tr>
-                <td colspan="1" id="7">
-                    <input class="number" type="button" value="7">
+                <td>
+                    <input class="number" type="button" value="7" onclick="dis('7')" onkeydown="myFunction(event)">
                 </td>  
-                <td colspan="1" id="8">
-                    <input class="number" type="button" value="8">
+                <td>
+                    <input class="number" type="button" value="8" onclick="dis('8')" onkeydown="myFunction(event)">
                 </td>
-                <td colspan="1" id="9">
-                    <input class="number" type="button" value="9">
+                <td>
+                    <input class="number" type="button" value="9" onclick="dis('9')" onkeydown="myFunction(event)">
                 </td>
-                <td class="function">
-                    <input class="function" type="button" id="*" value="*">
+                <td>
+                    <input class="function" type="button" id="*" value="*" onclick="dis('*')" onkeydown="myFunction(event)">
                 </td>
             </tr>
             <!--Row 2-->
             <tr>
-                <td colspan="1" id="4">
-                    <input class="num" type="button" value="4">
+                <td>
+                    <input class="num" type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)">
                 </td>  
-                <td colspan="1" id="5">
-                    <input class="number" type="button" value="5">
+                <td>
+                    <input class="number" type="button" value="5" onclick="dis('5')" onkeydown="myFunction(event)">
                 </td>
-                <td colspan="1" id="6">
-                    <input class="number" type="button" value="6">
+                <td>
+                    <input class="number" type="button" value="6" onclick="dis('6')" onkeydown="myFunction(event)">
                 </td>
-                <td class="function">
-                    <input class="function" type="button" id="/" value="/">
+                <td>
+                    <input class="function" type="button" id="/" value="/" onclick="dis('/')" onkeydown="myFunction(event)">
                 </td>
             </tr>
             <!--Row 3-->
             <tr>
-                <td colspan="1" id="1">
-                    <input class="number" type="button" value="1">
+                <td>
+                    <input class="number" type="button" value="1" onclick="dis('1')" onkeydown="myFunction(event)">
                 </td>  
-                <td colspan="1" id="2">
-                    <input class="number" class="num" type="button" value="2">
+                <td>
+                    <input class="number" class="num" type="button" value="2" onclick="dis('2')" onkeydown="myFunction(event)">
                 </td>
-                <td colspan="1" id="3">
-                    <input class="number" type="button" value="3">
+                <td>
+                    <input class="number" type="button" value="3" onclick="dis('3')" onkeydown="myFunction(event)">
                 </td>
-                <td class="function">
-                    <input class="function" type="button" id="+" value="+">
+                <td>
+                    <input class="function" type="button" id="+" value="+" onclick="dis('+')" onkeydown="myFunction(event)">
                 </td>
                 
             </tr>
             <!--Row 4-->
             <tr>  
-                <td class="function">
-                    <input class="function" type="button" id="." value=".">
+                <td>
+                    <input class="function" type="button" id="." value="." onclick="dis('.')" onkeydown="myFunction(event)">
                 </td> 
-                <td colspan="1">
-                    <input class="number" type="button" id="0" value="0">
+                <td>
+                    <input class="number" type="button" id="0" value="0" onclick="dis('0')" onkeydown="myFunction(event)">
                 </td>
-                <td colspan="1">
-                    <input class="function" type="button" id="c" value="c">
+                <td>
+                    <input class="function" type="button" id="c" value="c" onclick="clr()">
                 </td>
-                <td class="function">
-                    <input class="function" type="button" id="-" value="-">
+                <td>
+                    <input class="function" type="button" id="-" value="-" onclick="dis('-')" onkeydown="myFunction(event)">
                 </td> 
             </tr>
             <!--Enter-->
             <tr>
                 <td colspan="4" id="enter">
-                    <input class="function" type="button" id="enter" value="enter">
+                    <input class="function" type="button" id="enter" value="Enter" onclick="solve()">
                 </td>
                
             </tr>
 
         </table>
-    </nav>
+    <script src="calculator.js"></script>
+
+
 </body>
 </html>
