@@ -3,10 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc-You-Later</title>
-    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="calculator2.css">
     
 </head>
-<body>
+<body id="body">
         <table id="calcu">
             <!--input-->
             <tr>
@@ -32,7 +32,7 @@
             <!--Row 2-->
             <tr>
                 <td>
-                    <input class="num" type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)">
+                    <input class="number" type="button" value="4" onclick="dis('4')" onkeydown="myFunction(event)">
                 </td>  
                 <td>
                     <input class="number" type="button" value="5" onclick="dis('5')" onkeydown="myFunction(event)">
@@ -84,6 +84,9 @@
             </tr>
 
         </table>
+            <tr>
+                <td><input type="button" id="change" value="Change" onclick="change()"></td>
+            </tr>
     <script src="calculator.js"></script>
 
 

@@ -34,3 +34,7 @@ function clr() {
     let blank = ""
     document.getElementById("result").value = blank 
 } 
+
+function change(){
+    
+}
