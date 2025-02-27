@@ -89,3 +89,14 @@ input[type="button"]{
 #c:hover{
     background-color: rgb(190, 82, 66);
 }
+#change{
+    width: 10%;
+    height: 10%;
+    background-color: rgb(209, 230, 248);
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: rgb(191, 213, 233);
+}
+#change:hover{
+    background-color: rgb(189, 212, 233);
+}
