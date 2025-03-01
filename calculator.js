@@ -36,10 +36,14 @@ function clr() {
 } 
 
 function change(){
-    const css = document.getElementById('css');
-    css.href = 'calculator.css'
-    const css2 = document.querySelector('#cssNew');
-    css2.href = 'calculator2.css'
-    const css1 = document.querySelector('#csslew');
-    css1.href = 'calculator.css'
+    let css = document.getElementById('css');
+    let cha = document.getElementById('change')
+    if (css.getAttribute('href') == "calculator2.css") {
+        css.setAttribute('href', 'calculator.css')
+        cha.setAttribute('value', 'Light')
+    }
+        else {
+            css.setAttribute('href', 'calculator2.css')
+            cha.setAttribute('value', 'Dark')
+        }
 }

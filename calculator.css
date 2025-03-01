@@ -90,10 +90,13 @@ input[type="button"]{
     background-color: rgb(190, 82, 66);
 }
 #change{
+    font-size: 24px;
     width: 10%;
     height: 10%;
+    max-width: 120px;
+    max-height: 120px;
     background-color: rgb(209, 230, 248);
-    border-radius: 30px;
+    border-radius: 20px;
     border: 2px solid;
     border-color: rgb(191, 213, 233);
 }
